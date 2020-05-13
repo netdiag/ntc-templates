@@ -1,5 +1,5 @@
 Value PORT (\S+)
-Value STATUS (up|down|admin\s+down)
+Value STATUS (up|down|admin\s+down|standby\s+mode|deleted)
 Value PROTOCOL (up|down)
 Value DESCRIP (\S.*?)
 
